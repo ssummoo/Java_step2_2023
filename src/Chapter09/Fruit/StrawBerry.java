@@ -1,4 +1,4 @@
-package Chapter09;
+package Chapter09.Fruit;
 
 public class StrawBerry extends Berry {
 

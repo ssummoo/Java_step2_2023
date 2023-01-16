@@ -1,4 +1,4 @@
-package Chapter09;
+package Chapter09.Fruit;
 
 public class Fruit {
 	private String sort;//분류
@@ -13,11 +13,8 @@ public class Fruit {
 	}
 	
 	//getter
-	
 	public void Disp1() {
 		System.out.println("분류 : "+sort);
 		System.out.println("계절 : "+season);
-		
 	}
-	
 }

@@ -1,0 +1,20 @@
+package Chapter09;
+
+public class B {
+
+	//같은 패키지에서는 public
+	public void moethod() {
+		A a=new A();
+		a.field="value";
+		a.method();
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		B b=new B();
+		b.moethod();
+
+	}
+
+}

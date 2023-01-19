@@ -2,10 +2,10 @@ package Chapter13.C01;
 
 import javax.swing.JOptionPane;
 
-class Out2 {
-
-	static int a = 1;
-	int b;
+	class Out2 {
+		
+		static int a = 1;
+		int b;
 
 	static class In {// public »ý·«
 

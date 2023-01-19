@@ -21,7 +21,7 @@ public class SchedulerMain {
 			Scheduler scheduler = null;
 
 			// °´Ã¼ »ý¼º
-			if (('r' | 'R') == select) {
+			if ('R' == select || 'r' == select) {
 				scheduler = new RoundRobin();
 			} else if ('L' == select || 'l' == select) {
 				scheduler = new LeastJob();
